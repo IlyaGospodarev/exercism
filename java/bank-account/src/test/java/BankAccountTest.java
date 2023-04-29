@@ -17,7 +17,7 @@ public class BankAccountTest {
         assertThat(bankAccount.getBalance()).isEqualTo(0);
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void canDepositMoney() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -27,7 +27,7 @@ public class BankAccountTest {
         assertThat(bankAccount.getBalance()).isEqualTo(10);
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void canDepositMoneySequentially() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -38,7 +38,7 @@ public class BankAccountTest {
         assertThat(bankAccount.getBalance()).isEqualTo(28);
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void canWithdrawMoney() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -49,7 +49,7 @@ public class BankAccountTest {
         assertThat(bankAccount.getBalance()).isEqualTo(5);
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void canWithdrawMoneySequentially() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -61,7 +61,7 @@ public class BankAccountTest {
         assertThat(bankAccount.getBalance()).isEqualTo(0);
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotWithdrawMoneyFromEmptyAccount() {
         bankAccount.open();
@@ -71,7 +71,7 @@ public class BankAccountTest {
             .withMessage("Cannot withdraw money from an empty account");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotWithdrawMoreMoneyThanYouHave() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -82,7 +82,7 @@ public class BankAccountTest {
             .withMessage("Cannot withdraw more money than is currently in the account");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotDepositNegativeAmount() {
         bankAccount.open();
@@ -92,7 +92,7 @@ public class BankAccountTest {
             .withMessage("Cannot deposit or withdraw negative amount");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotWithdrawNegativeAmount() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -103,7 +103,7 @@ public class BankAccountTest {
             .withMessage("Cannot deposit or withdraw negative amount");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotGetBalanceOfClosedAccount() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -115,7 +115,7 @@ public class BankAccountTest {
             .withMessage("Account closed");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotDepositMoneyIntoClosedAccount() {
         bankAccount.open();
@@ -126,7 +126,7 @@ public class BankAccountTest {
             .withMessage("Account closed");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void cannotWithdrawMoneyFromClosedAccount() throws BankAccountActionInvalidException {
         bankAccount.open();
@@ -138,7 +138,7 @@ public class BankAccountTest {
             .withMessage("Account closed");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void bankAccountIsClosedBeforeItIsOpened() {
         assertThatExceptionOfType(BankAccountActionInvalidException.class)
@@ -146,7 +146,7 @@ public class BankAccountTest {
             .withMessage("Account closed");
     }
 
-    @Ignore("Remove to run test")
+    
     @Test
     public void canAdjustBalanceConcurrently() throws BankAccountActionInvalidException, InterruptedException {
         bankAccount.open();
