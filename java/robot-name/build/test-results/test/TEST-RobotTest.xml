@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RobotTest" tests="5" skipped="4" failures="0" errors="0" timestamp="2023-04-29T15:45:54" hostname="WIN-IU9NNVEE25L" time="0.199">
+  <properties/>
+  <testcase name="robotNamesAreUnique" classname="RobotTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sameRobotsHaveSameNames" classname="RobotTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="differentRobotsHaveDifferentNames" classname="RobotTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="hasName" classname="RobotTest" time="0.197"/>
+  <testcase name="resetName" classname="RobotTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

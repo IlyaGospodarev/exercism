@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HandshakeCalculatorTest" tests="14" skipped="13" failures="0" errors="0" timestamp="2023-04-29T15:41:56" hostname="WIN-IU9NNVEE25L" time="0.048">
+  <properties/>
+  <testcase name="testReversingASingleActionYieldsTheSameAction" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatInput1YieldsAWink" classname="HandshakeCalculatorTest" time="0.046"/>
+  <testcase name="testReversingNoActionsYieldsNoActions" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatInput8YieldsAJump" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatHandlesMoreThanFiveBinaryPlacesWithoutReversal" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatInput4YieldsACloseYourEyes" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInputThatYieldsAllActions" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatInput2YieldsADoubleBlink" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInputThatYieldsAllActionsReversed" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAnInputThatYieldsTwoReversedActions" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAnInputThatYieldsTwoActions" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatHandlesMoreThanFiveBinaryPlacesWithReversal" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThatInput0YieldsNoActions" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testInputThatYieldsAllActionsFromMoreThanFiveBinaryPlaces" classname="HandshakeCalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

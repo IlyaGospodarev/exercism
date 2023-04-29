@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankAccountTest" tests="14" skipped="13" failures="0" errors="0" timestamp="2023-04-29T15:47:06" hostname="WIN-IU9NNVEE25L" time="0.049">
+  <properties/>
+  <testcase name="canDepositMoneySequentially" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotGetBalanceOfClosedAccount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotDepositNegativeAmount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotWithdrawNegativeAmount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotWithdrawMoreMoneyThanYouHave" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="canDepositMoney" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="bankAccountIsClosedBeforeItIsOpened" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="newlyOpenedAccountHasEmptyBalance" classname="BankAccountTest" time="0.046"/>
+  <testcase name="cannotWithdrawMoneyFromEmptyAccount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="canAdjustBalanceConcurrently" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotWithdrawMoneyFromClosedAccount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="canWithdrawMoney" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="cannotDepositMoneyIntoClosedAccount" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="canWithdrawMoneySequentially" classname="BankAccountTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
