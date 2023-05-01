@@ -1,4 +1,9 @@
 class Acronym {
+    public static void main(String[] args) {
+        Acronym acronym = new Acronym("First In, First Out");
+        System.out.println(acronym.get());
+    }
+
     private String phrase;
 
     Acronym(String phrase) {
@@ -6,7 +11,10 @@ class Acronym {
     }
 
     String get() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        StringBuilder acronym = new StringBuilder();
+        for (String word : phrase.toUpperCase().split("[\\s-_,]+")) {
+            acronym.append(word.charAt(0));
+        }
+        return acronym.toString();
     }
-
 }
