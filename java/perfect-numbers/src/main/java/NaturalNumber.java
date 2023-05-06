@@ -1,6 +1,11 @@
 import java.util.stream.IntStream;
 
 public class NaturalNumber {
+
+    public static void main(String[] args) {
+
+    }
+
     private final int number;
 
     public NaturalNumber(int number) {
