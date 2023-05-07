@@ -2,38 +2,29 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class BeerSong {
-    public static void main(String[] args) {
+    private static final String VERSE_TEMPLATE = """
+            %s bottle%s of beer on the wall, %s bottle%s of beer.
+            Take %s down and pass it around, %s bottle%s of beer on the wall.\n
+            """;
+    private static final String ZERO_BOTTLES_VERSE = """
+            No more bottles of beer on the wall, no more bottles of beer.
+            Go to the store and buy some more, 99 bottles of beer on the wall.\n
+            """;
 
-    }
-
-    String sing(int numberOfBottles, int bottlesToTake) {
-
-//        if (numberOfBottles == 2) {
-//            return IntStream.range(0, bottlesToTake)
-//                    .mapToObj(s -> String.format("%1$d bottles of beer on the wall, %d bottles of beer.\n", numberOfBottles - s)
-//                            .concat(String.format("Take one down and pass it around, %d bottle of beer on the wall.\n\n", numberOfBottles - (s + 1))))
-//                    .collect(Collectors.joining());
-//        } else if (numberOfBottles == 1) {
-//            return IntStream.range(0, bottlesToTake)
-//                    .mapToObj(s -> String.format("%1$d bottle of beer on the wall, %d bottle of beer.\n", numberOfBottles - s)
-//                            .concat(String.format("Take it down and pass it around, no more bottles of beer on the wall.\n\n", numberOfBottles - (s + 1))))
-//                    .collect(Collectors.joining());
-//        }
-//
-//        if (numberOfBottles < bottlesToTake) {
-//            return IntStream.range(0, bottlesToTake)
-//                    .mapToObj(s -> String.format("No more bottles of beer on the wall, no more bottles of beer.\n")
-//                            .concat(String.format("Go to the store and buy some more, 99 bottles of beer on the wall.\n\n")))
-//                    .collect(Collectors.joining());
-//        }
-
-        return IntStream.range(0, bottlesToTake)
-                .mapToObj(s -> String.format("%1$d bottles of beer on the wall, %d bottles of beer.\n", numberOfBottles - s)
-                        .concat(String.format("Take one down and pass it around, %d bottles of beer on the wall.\n\n", numberOfBottles - (s + 1))))
-                .collect(Collectors.joining());
+    String sing(int bottles, int verses) {
+        return IntStream.range(0, verses).mapToObj(bottle -> getVerse(bottles - bottle)).collect(Collectors.joining());
     }
 
     String singSong() {
         return sing(99, 100);
+    }
+
+    private static String getVerse(int bottles) {
+        return switch (bottles) {
+            case 0 -> ZERO_BOTTLES_VERSE;
+            case 1 -> String.format(VERSE_TEMPLATE, bottles, "", bottles, "", "it", "no more", "s");
+            default ->
+                    String.format(VERSE_TEMPLATE, bottles, "s", bottles, "s", "one", bottles - 1, bottles == 2 ? "" : "s");
+        };
     }
 }

@@ -1,29 +1,14 @@
+import java.util.stream.IntStream;
+
 class IsbnVerifier {
-     boolean isValid(String stringToVerify) {
-        String checkNumber = stringToVerify.replaceAll("-", "");
+    boolean isValid(String isbn) {
+        String numeric = isbn.replace("-", "");
+        int isbnLength = numeric.length();
 
-        if (checkNumber.length() != 10) {
-            return false;
-        }
-
-        int multiplier = 10;
-        int isIsbn = 0;
-
-        String[] strings = checkNumber.split("");
-
-        for (int i = 0; i < strings.length; i++) {
-            if (checkNumber.endsWith("X")) {
-                strings[strings.length - 1] = "10";
-            }
-
-            if (strings[i].matches("[A-Z]")) {
-                return false;
-            }
-
-            isIsbn += Integer.parseInt(strings[i]) * multiplier;
-            multiplier--;
-        }
-
-        return isIsbn % 11 == 0;
+        if (numeric.matches("\\d{9,10}X?")) {
+            return IntStream.range(0, isbnLength)
+                    .map(i -> (numeric.charAt(i) == 'X' ? 10 : numeric.charAt(i) - '0') * (isbnLength - i))
+                    .sum() % 11 == 0;
+        } else return false;
     }
 }
