@@ -17,6 +17,9 @@
       <module name="bank-account" target="17" />
       <module name="bank-account.main" target="17" />
       <module name="bank-account.test" target="17" />
+      <module name="beer-song" target="18" />
+      <module name="beer-song.main" target="18" />
+      <module name="beer-song.test" target="18" />
       <module name="binary-search" target="17" />
       <module name="binary-search.main" target="17" />
       <module name="binary-search.test" target="17" />
@@ -26,6 +29,9 @@
       <module name="blackjack" target="17" />
       <module name="blackjack.main" target="17" />
       <module name="blackjack.test" target="17" />
+      <module name="bob" target="18" />
+      <module name="bob.main" target="18" />
+      <module name="bob.test" target="18" />
       <module name="cars-assemble" target="17" />
       <module name="cars-assemble.main" target="17" />
       <module name="cars-assemble.test" target="17" />
@@ -44,6 +50,9 @@
       <module name="flatten-array" target="17" />
       <module name="flatten-array.main" target="17" />
       <module name="flatten-array.test" target="17" />
+      <module name="food-chain" target="18" />
+      <module name="food-chain.main" target="18" />
+      <module name="food-chain.test" target="18" />
       <module name="football-match-reports" target="17" />
       <module name="football-match-reports.main" target="17" />
       <module name="football-match-reports.test" target="17" />
@@ -62,6 +71,9 @@
       <module name="high-scores" target="18" />
       <module name="high-scores.main" target="18" />
       <module name="high-scores.test" target="18" />
+      <module name="isbn-verifier" target="18" />
+      <module name="isbn-verifier.main" target="18" />
+      <module name="isbn-verifier.test" target="18" />
       <module name="isogram" target="17" />
       <module name="isogram.main" target="17" />
       <module name="isogram.test" target="17" />
@@ -101,6 +113,9 @@
       <module name="protein-translation" target="18" />
       <module name="protein-translation.main" target="18" />
       <module name="protein-translation.test" target="18" />
+      <module name="proverb" target="18" />
+      <module name="proverb.main" target="18" />
+      <module name="proverb.test" target="18" />
       <module name="raindrops" target="17" />
       <module name="raindrops.main" target="17" />
       <module name="raindrops.test" target="17" />
@@ -149,6 +164,9 @@
       <module name="triangle" target="17" />
       <module name="triangle.main" target="17" />
       <module name="triangle.test" target="17" />
+      <module name="twelve-days" target="18" />
+      <module name="twelve-days.main" target="18" />
+      <module name="twelve-days.test" target="18" />
       <module name="two-fer" target="17" />
       <module name="two-fer.main" target="17" />
       <module name="two-fer.test" target="17" />

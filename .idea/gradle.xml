@@ -4,22 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/beer-song" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/beer-song" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/bob" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/bob" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/diamond" />
         <option name="modules">
           <set>
@@ -28,42 +12,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/food-chain" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/food-chain" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/house" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/house" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/isbn-verifier" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/isbn-verifier" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/proverb" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/proverb" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/twelve-days" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/twelve-days" />
           </set>
         </option>
       </GradleProjectSettings>
