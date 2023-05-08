@@ -71,6 +71,9 @@
       <module name="high-scores" target="18" />
       <module name="high-scores.main" target="18" />
       <module name="high-scores.test" target="18" />
+      <module name="house" target="18" />
+      <module name="house.main" target="18" />
+      <module name="house.test" target="18" />
       <module name="isbn-verifier" target="18" />
       <module name="isbn-verifier.main" target="18" />
       <module name="isbn-verifier.test" target="18" />
@@ -92,6 +95,9 @@
       <module name="log-levels" target="17" />
       <module name="log-levels.main" target="17" />
       <module name="log-levels.test" target="17" />
+      <module name="luhn" target="18" />
+      <module name="luhn.main" target="18" />
+      <module name="luhn.test" target="18" />
       <module name="matrix" target="17" />
       <module name="matrix.main" target="17" />
       <module name="matrix.test" target="17" />
