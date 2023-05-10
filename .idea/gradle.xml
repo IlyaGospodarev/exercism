@@ -19,6 +19,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/nucleotide-count" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/nucleotide-count" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/phone-number" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/phone-number" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
