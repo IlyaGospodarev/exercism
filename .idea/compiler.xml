@@ -107,6 +107,9 @@
       <module name="need-for-speed" target="17" />
       <module name="need-for-speed.main" target="17" />
       <module name="need-for-speed.test" target="17" />
+      <module name="nucleotide-count" target="17" />
+      <module name="nucleotide-count.main" target="17" />
+      <module name="nucleotide-count.test" target="17" />
       <module name="pangram" target="18" />
       <module name="pangram.main" target="18" />
       <module name="pangram.test" target="18" />
@@ -161,6 +164,9 @@
       <module name="secret-handshake" target="17" />
       <module name="secret-handshake.main" target="17" />
       <module name="secret-handshake.test" target="17" />
+      <module name="series" target="17" />
+      <module name="series.main" target="17" />
+      <module name="series.test" target="17" />
       <module name="space-age" target="18" />
       <module name="space-age.main" target="18" />
       <module name="space-age.test" target="18" />
