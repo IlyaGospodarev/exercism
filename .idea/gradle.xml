@@ -4,6 +4,22 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/allergies" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/allergies" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/bowling" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/bowling" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/diamond" />
         <option name="modules">
           <set>
@@ -20,10 +36,26 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/minesweeper" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/minesweeper" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/phone-number" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/phone-number" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/roman-numerals" />
           </set>
         </option>
       </GradleProjectSettings>

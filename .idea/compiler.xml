@@ -188,6 +188,9 @@
       <module name="word-count" target="17" />
       <module name="word-count.main" target="17" />
       <module name="word-count.test" target="17" />
+      <module name="yacht" target="17" />
+      <module name="yacht.main" target="17" />
+      <module name="yacht.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
