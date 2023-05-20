@@ -125,6 +125,9 @@
       <module name="proverb" target="18" />
       <module name="proverb.main" target="18" />
       <module name="proverb.test" target="18" />
+      <module name="queen-attack" target="17" />
+      <module name="queen-attack.main" target="17" />
+      <module name="queen-attack.test" target="17" />
       <module name="raindrops" target="17" />
       <module name="raindrops.main" target="17" />
       <module name="raindrops.test" target="17" />

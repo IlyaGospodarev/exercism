@@ -1,10 +1,26 @@
-/*
+import java.util.Arrays;
+import java.util.List;
 
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
+public class MinesweeperBoard {
+    public static void main(String[] args) {
+        List<String> inputBoard = Arrays.asList(
+                " ",
+                "*",
+                " ",
+                "*",
+                " "
+        );
 
-Please remove this comment when submitting your solution.
+        System.out.println(inputBoard);
+    }
+    private List<String> inputBoard;
 
-*/
+    public MinesweeperBoard(List<String> inputBoard) {
+        this.inputBoard = inputBoard;
+    }
+
+
+    public List<String> withNumbers() {
+        return null;
+    }
+}
