@@ -170,6 +170,9 @@
       <module name="series" target="17" />
       <module name="series.main" target="17" />
       <module name="series.test" target="17" />
+      <module name="sieve" target="17" />
+      <module name="sieve.main" target="17" />
+      <module name="sieve.test" target="17" />
       <module name="space-age" target="18" />
       <module name="space-age.main" target="18" />
       <module name="space-age.test" target="18" />

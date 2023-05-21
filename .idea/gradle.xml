@@ -60,10 +60,26 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/poker" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/poker" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/roman-numerals" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/sum-of-multiples" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/sum-of-multiples" />
           </set>
         </option>
       </GradleProjectSettings>

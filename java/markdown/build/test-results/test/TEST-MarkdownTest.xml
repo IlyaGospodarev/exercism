@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MarkdownTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-05-20T17:00:34" hostname="pop-os" time="0.048">
+  <properties/>
+  <testcase name="normalTextAsAParagraph" classname="MarkdownTest" time="0.038"/>
+  <testcase name="withH1HeaderLevel" classname="MarkdownTest" time="0.006"/>
+  <testcase name="normalItalicsAndBoldText" classname="MarkdownTest" time="0.0"/>
+  <testcase name="withH2HeaderLevel" classname="MarkdownTest" time="0.0"/>
+  <testcase name="markdownSymbolsInTheParagraphTextShouldNotBeInterpreted" classname="MarkdownTest" time="0.001"/>
+  <testcase name="withH6HeaderLevel" classname="MarkdownTest" time="0.0"/>
+  <testcase name="unorderedLists" classname="MarkdownTest" time="0.001"/>
+  <testcase name="aLittleBitOfEverything" classname="MarkdownTest" time="0.0"/>
+  <testcase name="markdownSymbolsInTheListItemTextShouldNotBeInterpreted" classname="MarkdownTest" time="0.001"/>
+  <testcase name="markdownSymbolsInTheHeaderShouldNotBeInterpreted" classname="MarkdownTest" time="0.0"/>
+  <testcase name="markdownUnorderedListsCloseProperlyWithPrecedingAndFollowingLines" classname="MarkdownTest" time="0.0"/>
+  <testcase name="boldText" classname="MarkdownTest" time="0.0"/>
+  <testcase name="italics" classname="MarkdownTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
