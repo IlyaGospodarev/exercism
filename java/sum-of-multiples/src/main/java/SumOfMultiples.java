@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,16 +11,22 @@ class SumOfMultiples {
     }
 
     int getSum() {
+        if (number == 1 || set.length == 0) {
+            return 0;
+        }
+
         Set<Integer> setsItem = new HashSet<>();
 
         for (int item : set) {
-            for (int i = item; i <= number; i++) {
-                if (i % item == 0) {
-                    setsItem.add(i);
-                }
+            if (item == 0) {
+                break;
+            }
+
+            for (int i = item; i < number; i += item) {
+                setsItem.add(i);
             }
         }
 
-        return setsItem.stream().reduce(Integer::sum).get();
+        return setsItem.stream().mapToInt(Integer::intValue).sum();
     }
 }

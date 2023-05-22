@@ -76,10 +76,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/sum-of-multiples" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/wordy" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/java/sum-of-multiples" />
+            <option value="$PROJECT_DIR$/java/wordy" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -179,6 +179,9 @@
       <module name="squeaky-clean" target="17" />
       <module name="squeaky-clean.main" target="17" />
       <module name="squeaky-clean.test" target="17" />
+      <module name="sum-of-multiples" target="17" />
+      <module name="sum-of-multiples.main" target="17" />
+      <module name="sum-of-multiples.test" target="17" />
       <module name="triangle" target="17" />
       <module name="triangle.main" target="17" />
       <module name="triangle.test" target="17" />
