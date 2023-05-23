@@ -116,6 +116,9 @@
       <module name="pangram" target="18" />
       <module name="pangram.main" target="18" />
       <module name="pangram.test" target="18" />
+      <module name="pascals-triangle" target="17" />
+      <module name="pascals-triangle.main" target="17" />
+      <module name="pascals-triangle.test" target="17" />
       <module name="perfect-numbers" target="18" />
       <module name="perfect-numbers.main" target="18" />
       <module name="perfect-numbers.test" target="18" />
