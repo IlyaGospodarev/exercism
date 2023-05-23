@@ -83,6 +83,9 @@
       <module name="karls-languages" target="17" />
       <module name="karls-languages.main" target="17" />
       <module name="karls-languages.test" target="17" />
+      <module name="kindergarten-garden" target="17" />
+      <module name="kindergarten-garden.main" target="17" />
+      <module name="kindergarten-garden.test" target="17" />
       <module name="lasagna" target="17" />
       <module name="lasagna.main" target="17" />
       <module name="lasagna.test" target="17" />
