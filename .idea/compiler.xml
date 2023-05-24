@@ -35,6 +35,9 @@
       <module name="cars-assemble" target="17" />
       <module name="cars-assemble.main" target="17" />
       <module name="cars-assemble.test" target="17" />
+      <module name="collatz-conjecture" target="17" />
+      <module name="collatz-conjecture.main" target="17" />
+      <module name="collatz-conjecture.test" target="17" />
       <module name="darts" target="17" />
       <module name="darts.main" target="17" />
       <module name="darts.test" target="17" />
@@ -47,6 +50,9 @@
       <module name="elons-toy-car" target="17" />
       <module name="elons-toy-car.main" target="17" />
       <module name="elons-toy-car.test" target="17" />
+      <module name="error-handling" target="17" />
+      <module name="error-handling.main" target="17" />
+      <module name="error-handling.test" target="17" />
       <module name="flatten-array" target="17" />
       <module name="flatten-array.main" target="17" />
       <module name="flatten-array.test" target="17" />
@@ -110,6 +116,9 @@
       <module name="need-for-speed" target="17" />
       <module name="need-for-speed.main" target="17" />
       <module name="need-for-speed.test" target="17" />
+      <module name="nth-prime" target="17" />
+      <module name="nth-prime.main" target="17" />
+      <module name="nth-prime.test" target="17" />
       <module name="nucleotide-count" target="17" />
       <module name="nucleotide-count.main" target="17" />
       <module name="nucleotide-count.test" target="17" />

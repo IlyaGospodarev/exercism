@@ -78,6 +78,22 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/tournament" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/tournament" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/transpose" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/transpose" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/wordy" />
         <option name="modules">
           <set>
