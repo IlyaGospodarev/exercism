@@ -70,10 +70,26 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/prime-factors" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/prime-factors" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/roman-numerals" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/run-length-encoding" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/run-length-encoding" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -90,6 +106,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/transpose" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/two-bucket" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/two-bucket" />
           </set>
         </option>
       </GradleProjectSettings>

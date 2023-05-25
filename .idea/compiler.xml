@@ -14,6 +14,9 @@
       <module name="armstrong-numbers" target="18" />
       <module name="armstrong-numbers.main" target="18" />
       <module name="armstrong-numbers.test" target="18" />
+      <module name="atbash-cipher" target="17" />
+      <module name="atbash-cipher.main" target="17" />
+      <module name="atbash-cipher.test" target="17" />
       <module name="bank-account" target="17" />
       <module name="bank-account.main" target="17" />
       <module name="bank-account.test" target="17" />
