@@ -110,6 +110,9 @@
       <module name="luhn" target="18" />
       <module name="luhn.main" target="18" />
       <module name="luhn.test" target="18" />
+      <module name="matching-brackets" target="17" />
+      <module name="matching-brackets.main" target="17" />
+      <module name="matching-brackets.test" target="17" />
       <module name="matrix" target="17" />
       <module name="matrix.main" target="17" />
       <module name="matrix.test" target="17" />

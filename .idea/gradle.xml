@@ -62,14 +62,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/matching-brackets" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/matching-brackets" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/minesweeper" />
         <option name="modules">
           <set>
