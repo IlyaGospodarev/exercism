@@ -170,6 +170,9 @@
       <module name="rotational-cipher" target="17" />
       <module name="rotational-cipher.main" target="17" />
       <module name="rotational-cipher.test" target="17" />
+      <module name="run-length-encoding" target="17" />
+      <module name="run-length-encoding.main" target="17" />
+      <module name="run-length-encoding.test" target="17" />
       <module name="saddle-points" target="17" />
       <module name="saddle-points.main" target="17" />
       <module name="saddle-points.test" target="17" />

@@ -4,6 +4,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/all-your-base" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/all-your-base" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/allergies" />
@@ -30,6 +38,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/etl" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/etl" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/largest-series-product" />
         <option name="modules">
           <set>
@@ -42,6 +58,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/markdown" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/matching-brackets" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/matching-brackets" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -78,18 +102,18 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/rail-fence-cipher" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/java/roman-numerals" />
+            <option value="$PROJECT_DIR$/java/rail-fence-cipher" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/run-length-encoding" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/java/run-length-encoding" />
+            <option value="$PROJECT_DIR$/java/roman-numerals" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -122,6 +146,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/wordy" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/zebra-puzzle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/zebra-puzzle" />
           </set>
         </option>
       </GradleProjectSettings>
