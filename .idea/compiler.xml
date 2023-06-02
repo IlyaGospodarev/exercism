@@ -170,6 +170,9 @@
       <module name="robot-name" target="17" />
       <module name="robot-name.main" target="17" />
       <module name="robot-name.test" target="17" />
+      <module name="roman-numerals" target="17" />
+      <module name="roman-numerals.main" target="17" />
+      <module name="roman-numerals.test" target="17" />
       <module name="rotational-cipher" target="17" />
       <module name="rotational-cipher.main" target="17" />
       <module name="rotational-cipher.test" target="17" />

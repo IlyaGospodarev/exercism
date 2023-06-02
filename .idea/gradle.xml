@@ -30,18 +30,26 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/diamond" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/diamond" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/etl" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/etl" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/grade-school" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/grade-school" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/grep" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/grep" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -98,14 +106,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/rail-fence-cipher" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/roman-numerals" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/roman-numerals" />
           </set>
         </option>
       </GradleProjectSettings>
