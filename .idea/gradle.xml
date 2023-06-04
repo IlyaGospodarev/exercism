@@ -54,14 +54,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/largest-series-product" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/largest-series-product" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/markdown" />
         <option name="modules">
           <set>

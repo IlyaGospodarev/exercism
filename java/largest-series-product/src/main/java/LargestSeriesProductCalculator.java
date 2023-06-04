@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 class LargestSeriesProductCalculator {
     private final String inputNumber;
@@ -20,14 +21,10 @@ class LargestSeriesProductCalculator {
             return 1;
         }
 
-        long max = 0;
-
-        for (int i = 0; i <= inputNumber.length() - numberOfDigits; i++) {
-            String[] number = inputNumber.substring(i, i + numberOfDigits).split("");
-            var series = Arrays.stream(number).map(Long::parseLong).reduce((l, l2) -> l * l2).get();
-            max = Math.max(max, series);
-        }
-
-        return max;
+        return IntStream.rangeClosed(0, inputNumber.length() - numberOfDigits)
+                .mapToObj(i -> Arrays.stream(inputNumber.substring(i, i + numberOfDigits).split(""))
+                        .map(Long::parseLong)
+                        .reduce((l, l2) -> l * l2).get())
+                .max(Long::compareTo).get();
     }
 }
