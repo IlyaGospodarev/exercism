@@ -5,6 +5,9 @@
       <module name="acronym" target="18" />
       <module name="acronym.main" target="18" />
       <module name="acronym.test" target="18" />
+      <module name="allergies" target="17" />
+      <module name="allergies.main" target="17" />
+      <module name="allergies.test" target="17" />
       <module name="anagram" target="18" />
       <module name="anagram.main" target="18" />
       <module name="anagram.test" target="18" />
@@ -35,6 +38,9 @@
       <module name="bob" target="18" />
       <module name="bob.main" target="18" />
       <module name="bob.test" target="18" />
+      <module name="bowling" target="17" />
+      <module name="bowling.main" target="17" />
+      <module name="bowling.test" target="17" />
       <module name="cars-assemble" target="17" />
       <module name="cars-assemble.main" target="17" />
       <module name="cars-assemble.test" target="17" />

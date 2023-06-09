@@ -1,17 +1,20 @@
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Allergies {
-    private int allergiesScore;
+    private int score;
 
-    public Allergies(int allergiesScore) {
-        this.allergiesScore = allergiesScore;
+    public Allergies(int score) {
+        this.score = score;
     }
 
     public boolean isAllergicTo(Allergen allergen) {
-        return false;
+        return (score & allergen.getScore()) != 0;
     }
 
     public List<Allergen> getList() {
-        return null;
+        return Arrays.stream(Allergen.values())
+                .filter(this::isAllergicTo)
+                .collect(Collectors.toList());
     }
 }

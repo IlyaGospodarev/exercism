@@ -12,20 +12,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="PLATFORM" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/allergies" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/dominoes" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/java/allergies" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/bowling" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/bowling" />
+            <option value="$PROJECT_DIR$/java/dominoes" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -34,6 +24,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/etl" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/go-counting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/go-counting" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -50,6 +48,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java/grep" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java/knapsack" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java/knapsack" />
           </set>
         </option>
       </GradleProjectSettings>
