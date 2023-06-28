@@ -179,6 +179,9 @@
       <module name="robot-name" target="17" />
       <module name="robot-name.main" target="17" />
       <module name="robot-name.test" target="17" />
+      <module name="robot-simulator" target="17" />
+      <module name="robot-simulator.main" target="17" />
+      <module name="robot-simulator.test" target="17" />
       <module name="roman-numerals" target="17" />
       <module name="roman-numerals.main" target="17" />
       <module name="roman-numerals.test" target="17" />
