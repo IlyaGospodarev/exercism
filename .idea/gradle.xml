@@ -60,14 +60,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java/markdown" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/java/markdown" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/java/minesweeper" />
         <option name="modules">
           <set>
