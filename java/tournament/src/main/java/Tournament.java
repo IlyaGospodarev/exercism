@@ -6,6 +6,6 @@ class Tournament {
     }
 
     void applyResults(String resultString) {
-        throw new UnsupportedOperationException("Please implement the Tournament.applyResults() method.");
+
     }
 }
